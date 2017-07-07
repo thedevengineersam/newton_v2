@@ -1,3 +1,3 @@
 # newton_V2
-Thinking in installing OpenStack automatically
+Thinking in installing OpenStack automatically.
 In coding...
