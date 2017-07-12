@@ -8,7 +8,7 @@ if [[ $flag = 0 ]] ;then
 	echo "$SERVICE is running."
 elif [[ $flag = 3 ]] ;then
 	echo "$SERVICE is starting from dead"
-	systemctl start $SERVICE
-	systemctl enable $SERVICE
+	systemctl start $SERVICE 1>/dev/null
+	systemctl enable $SERVICE 1>/dev/null
 	echo "Done."
 fi
